@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local profiles / user data
+profiles/
+profiles.json
+
+# Build directories
+build/
+build_tmp/
+build-appimage/
+build-appimage-python/
+build_python_appimage/
+CyberDaemon_AppDir/
+
+# Release output
+cyberdaemon/
+dist/
+
+# Nuitka / packaging
+*.build/
+*.dist/
+*.onefile-build/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
